@@ -1,0 +1,487 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>calendar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+<style>
+#outerdiv{
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap:10px;
+}
+#jan,#feb,#march,#april,#may,#june,#july,#august,#sep,#october,#nov,#dec{
+background-color:lightsalmon;
+}
+h1{
+color:blue;
+}
+#jantitle{
+display: flex;
+justify-content: center;
+font-size:20px;
+padding:10px;
+background-color:red;
+margin-bottom: 6px;
+border-radius: 15px;
+}
+#days,.dd{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+margin-bottom:2px;
+align-items: center;
+}
+#days{
+margin: 5px;
+font-size:3vw;
+}
+.dd span:nth-child(n+1){
+background-color:green;
+}
+body{
+font-family:verdana;
+font-size: 3vw;
+}
+span:hover{
+cursor: pointer;
+border-radius: 50%;
+}
+span{
+display:flex;
+align-content: center;
+justify-content: center;
+border-radius: 30%;
+margin:3px;
+}
+</style>
+</head>
+<body>
+<center><h1>CALENDAR 2023</h1></center>
+<div id="outerdiv">
+
+<div id="jan">
+  <div id="jantitle"> <span>JANUARY</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="dayjan" onclick="hello();">
+</div>
+</div>
+
+<div id="feb">
+  <div id="jantitle"> <span>FEBRUARY</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+  </div>
+  
+<div class="dd" id="dayfeb" onclick="hello();">
+
+</div>
+</div>
+
+<div id="march">
+  <div id="jantitle"> <span>MARCH</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="daymarch" onclick="hello();">
+
+</div>
+</div>
+<div id="april">
+  <div id="jantitle"> <span>APRIL</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="dayapril" onclick="hello();">
+
+</div>
+</div>
+
+<div id="may">
+  <div id="jantitle"> <span>MAY</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="daymay" onclick="hello();">
+</div>
+</div>
+
+<div id="june">
+  <div id="jantitle"> <span>JUNE</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="dayjune" onclick="hello();">
+</div>
+</div>
+
+<div id="july">
+  <div id="jantitle"> <span>JULY</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="dayjuly" onclick="hello();">
+</div>
+</div>
+
+<div id="august">
+  <div id="jantitle"> <span>AUGUST</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="dayaugust" onclick="hello();">
+</div>
+</div>
+
+<div id="sep">
+  <div id="jantitle"> <span>SEPTEMBER</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="daysep" onclick="hello();">
+</div>
+</div>
+
+<div id="october">
+  <div id="jantitle"> <span>OCTOBER</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="dayoctober" onclick="hello();">
+</div>
+</div>
+
+
+<div id="nov">
+  <div id="jantitle"> <span>NOVEMBER</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="daynov" onclick="hello();">
+</div>
+</div>
+
+<div id="dec">
+  <div id="jantitle"> <span>DECEMBER</span></div>
+  
+  <div id="days">
+     <div id="sun">SUN</div>
+     <div id="mon">MON</div>
+     <div id="tue">TUE</div>
+     <div id="wed">WED</div>
+     <div id="thur">THUR</div>
+     <div id="fri">FRI</div>
+     <div id="sat">SAT</div>
+     
+  
+  </div>
+  
+<div class="dd" id="daydec" onclick="hello();">
+</div>
+</div>
+</div>
+<script type="text/javascript">
+function hello() {
+console.log("Development is undergoing\n");
+console.log("\nBe patient");
+}
+	var tm=new Date();
+var hrs=tm.getHours();
+var min=tm.getMinutes();
+
+
+var jan=document.getElementById("dayjan");
+var i;
+for(i=1; i<=31; i++){
+if (i<1) {
+
+
+var jandata=document.createElement("span");
+jandata.innerHTML=``;
+jan.appendChild(jandata);	
+}
+else {
+var jandata=document.createElement("span");
+jandata.title=`january date ${i} \n ${hrs} : ${min} hrs`;
+jandata.innerHTML=i;
+jan.appendChild(jandata);
+}
+}
+
+var feb=document.getElementById("dayfeb");
+var i;
+for(i=-2; i<=28; i++){
+if (i<1) {
+var febdata=document.createElement("span");
+febdata.innerHTML=``;
+feb.appendChild(febdata);	
+}
+else {
+var febdata=document.createElement("span");
+febdata.title=`february date ${i} \n ${hrs} : ${min} hrs`;
+febdata.innerHTML=i;
+feb.appendChild(febdata);
+}
+}
+var march=document.getElementById("daymarch");
+var i;
+for(i=-2; i<=31; i++){
+if (i<1) {
+var marchdata=document.createElement("span");
+marchdata.innerHTML=``;
+march.appendChild(marchdata);	
+}
+else {
+var marchdata=document.createElement("span");
+marchdata.title=`march date ${i} \n ${hrs} : ${min} hrs`;
+marchdata.innerHTML=i;
+march.appendChild(marchdata);
+}
+}
+var april=document.getElementById("dayapril");
+var i;
+for(i=-5; i<=30; i++){
+if (i<1) {
+var aprildata=document.createElement("span");
+aprildata.innerHTML=``;
+april.appendChild(aprildata);	
+}
+else {
+var aprildata=document.createElement("span");
+aprildata.title=`april date ${i} \n ${hrs} : ${min} hrs`;
+aprildata.innerHTML=i;
+april.appendChild(aprildata);
+}
+}
+var may=document.getElementById("daymay");
+var i;
+for(i=0; i<=31; i++){
+if (i<1) {
+var maydata=document.createElement("span");
+maydata.innerHTML=``;
+may.appendChild(maydata);	
+}
+else {
+var maydata=document.createElement("span");
+maydata.title=`may date ${i} \n ${hrs} : ${min} hrs`;
+maydata.innerHTML=i;
+may.appendChild(maydata);
+}
+}
+var june=document.getElementById("dayjune");
+var i;
+for(i=-3; i<=30; i++){
+if (i<1) {
+var junedata=document.createElement("span");
+junedata.innerHTML=``;
+june.appendChild(junedata);	
+}
+else {
+var junedata=document.createElement("span");
+junedata.title=`june date ${i} \n ${hrs} : ${min} hrs`;
+junedata.innerHTML=i;
+june.appendChild(junedata);
+}
+}
+
+var july=document.getElementById("dayjuly");
+var i;
+for(i=-5; i<=31; i++){
+if (i<1) {
+var julydata=document.createElement("span");
+julydata.innerHTML=``;
+july.appendChild(julydata);	
+}
+else {
+var julydata=document.createElement("span");
+julydata.title=`july date ${i} \n ${hrs} : ${min} hrs `;
+julydata.innerHTML=i;
+july.appendChild(julydata);
+}
+}
+var august=document.getElementById("dayaugust");
+var i;
+for(i=-1; i<=31; i++){
+if (i<1) {
+var augustdata=document.createElement("span");
+augustdata.innerHTML=``;
+august.appendChild(augustdata);	
+}
+else {
+var augustdata=document.createElement("span");
+augustdata.title=`august date ${i} \n ${hrs} : ${min} hrs`;
+augustdata.innerHTML=i;
+august.appendChild(augustdata);
+}
+}
+var sep=document.getElementById("daysep");
+var i;
+for(i=-4; i<=30; i++){
+if (i<1) {
+var sepdata=document.createElement("span");
+sepdata.innerHTML=``;
+sep.appendChild(sepdata);	
+}
+else {
+var sepdata=document.createElement("span");
+sepdata.title=`september date ${i} \n ${hrs} : ${min} hrs`;
+sepdata.innerHTML=i;
+sep.appendChild(sepdata);
+}
+}
+var october=document.getElementById("dayoctober");
+var i;
+for(i=1; i<=31; i++){
+if (i<1) {
+var octoberdata=document.createElement("span");
+octoberdata.innerHTML=``;
+october.appendChild(octoberdata);	
+}
+else {
+var octoberdata=document.createElement("span");
+octoberdata.title=`october date ${i} \n ${hrs} : ${min} hrs`;
+octoberdata.innerHTML=i;
+october.appendChild(octoberdata);
+}
+}
+var nov=document.getElementById("daynov");
+var i;
+for(i=-2; i<=30; i++){
+if (i<1) {
+var novdata=document.createElement("span");
+novdata.innerHTML=``;
+nov.appendChild(novdata);	
+}
+else {
+var novdata=document.createElement("span");
+novdata.title=`november date ${i} \n ${hrs} : ${min} hrs`;
+novdata.innerHTML=i;
+nov.appendChild(novdata);
+}
+}
+var dec=document.getElementById("daydec");
+var i;
+for(i=-4; i<=31; i++){
+if (i<1) {
+var decdata=document.createElement("span");
+decdata.innerHTML=``;
+dec.appendChild(decdata);	
+}
+else {
+var decdata=document.createElement("span");
+decdata.title=`december date ${i} \n ${hrs} : ${min} hrs`;
+decdata.innerHTML=i;
+dec.appendChild(decdata);
+}
+}
+</script>
+</body>
+</html>
