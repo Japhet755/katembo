@@ -1,0 +1,113 @@
+body{
+font-family: Geneva,Tahoma,Verdana,;
+font-size:15px;
+background-color: rgb(58, 20, 22);
+color:rgba(13, 13, 206, 0.884);
+}
+#pname{
+font-size:x-large;
+}
+#p1{
+   
+   font-size:30px;
+}
+#span1{
+    animation: hello 5s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+}
+#span2{
+    animation: hello 5s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    
+}
+#span3{
+    animation: hello 5s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+@keyframes hello{
+    0%{
+        color:rgb(77, 231, 90);
+        
+    }
+    33%{
+    color:rgb(50, 136, 16);
+    
+    
+    }
+    66%{
+        color:rgb(11, 185, 11);
+    }
+    99%{
+        color:rgb(23, 189, 18);
+    }
+}
+
+  
+#outerdiv{
+    display:flex;
+    height: 7vw;
+    position:relative;
+   
+    align-items: center;
+    justify-content: flex-end;
+}
+#home{
+   color:rgb(11, 11, 92);
+   
+   margin:20px;
+    
+}
+#contacts{  
+}
+#about{
+   margin:20px;
+}
+#edu{
+    padding:10px;
+}
+#ser{
+    padding:10px;  
+}
+#hob{
+    padding:10px;
+}
+#inst{
+    padding:10px;
+}
+#des{
+    border: 2px solid blue;
+    min-height: 100px;
+   
+    margin-top:20px;
+    padding:20px;
+    border-radius: 30px;
+    font-size:4vw;
+}
+#btdiv{
+
+    border:3px dotted black;
+   position:relative;
+   
+    display:flex;
+    top:10cqmax;
+    justify-content: space-evenly;
+    height:50px;
+}
+#cont,#abt{
+    border:2px solid blue;
+    width:70%;
+    margin:20px;
+    height:30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size:large;
+    padding:50px;
+    border-radius: 30px;
+}
